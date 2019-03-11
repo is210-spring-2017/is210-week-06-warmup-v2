@@ -78,7 +78,7 @@ Specifications
     We'll be performing a similar loop but doing so in a more programmatic
     manner.
 
-2.  Create a new module named ``task_01.py``
+2.  Open a new Jupyter notebook
 
 3.  Create a new function named ``fibonacci()`` that takes one required
     parameter:
@@ -102,57 +102,15 @@ Specifications
 
     In our example we are choosing to include the initial ``0`` value.
 
-Examples
+Expected Output
 ^^^^^^^^
 
 .. code:: pycon
 
-    >>> import task_01
-    >>> task_01.fibonacci(10)
+    >>> fibonacci(10)
     [0, 1, 1, 2, 3, 5, 8]
 
 Task 02
--------
-
-In this task, we'll practice our use of the ``if`` statement by creating a
-small function that can return a 'yes' or 'no' value equivalent of truthy or
-falsy values.
-
-Specifications
-^^^^^^^^^^^^^^
-
-1.  Create a new module named ``task_02.py``
-
-2.  Create a function named ``bool_to_str`` that takes one required argument:
-
-    1.  ``bval`` a boolean or boolean-like value that can be evaluated for
-        truthiness or falsiness
-
-3.  Use a simple ``if`` and ``else`` statement to determine if the passed
-    value is truthy or falsy.
-
-4. if the value is truthy, return the string, ``'Yes'`` otherwise, return the
-   string ``'No'``
-
-.. important::
-
-    Always avoid multiple returns, when possible. Set your return value into
-    a variable and use just one return at the end of the function.
-
-Examples
-^^^^^^^^
-
-.. code:: pycon
-
-    >>> import task_02
-    >>> task_02.bool_to_str(True)
-    'Yes'
-
-    >>> import task_02
-    >>> task 02.bool_to_str('')
-    'No'
-
-Task 03
 -------
 
 In this task, you'll be asked to create a simple for-loop to loop over a simple
@@ -163,7 +121,7 @@ what's used to measure reading level.
 Specifications
 ^^^^^^^^^^^^^^
 
-1.  Create a new module named ``task_03.py``
+1.  Keep working on the same notebook
 
 2.  Create a function named ``lexicographics()`` that takes one parameter:
 
@@ -202,74 +160,19 @@ Specifications
     to operate on a list, and the other involves using ``if`` to set-up running
     totals. Either are acceptable routes.
 
-Examples
+Expected Output
 ^^^^^^^^
 
 .. code:: pycon
 
-    >>> import task_03
-    >>> task_03.lexicographics('''Don't stop believing,
+    >>> lexicographics('''Don't stop believing,
     Hold on to that feeling.''')
     (5, 3, Decimal(4.0))
-
-If you'd like to see a more interesting implementation of your function, try
-importing the St. Crispian's Day speech from William Shakespeare's play, *Henry
-V*, conveniently provided as part of this project:
-
-.. code:: pycon
-
-    >>> import task_03
-    >>> import data
-    >>> task_03.lexicographics(data.SHAKESPEARE)
-    (12, 5, Decimal('8.14'))
-
-Executing Tests
-===============
-
-Code must be functional and pass tests before it will be eligible for credit.
-
-Linting
--------
-
-Lint tests check your code for syntactic or stylistic errors To execute lint
-tests against a specific file, simply open a terminal in the same directory as
-your code repository and type:
-
-.. code:: console
-
-    $ pylint filename.py
-
-Where ``filename.py`` is the name of the file you wish to lint test.
-
-Unit Tests
-----------
-
-Unit tests check that your code performs the tested objectives. Unit tests
-may be executed individually by opening a terminal in the same directory as
-your code repository and typing:
-
-.. code:: console
-
-    $ nosetests tests/name_of_test.py
-
-Where ``name_of_test.py`` is the name of the testfile found in the ``tests``
-directory of your source code.
-
-Running All Tests
------------------
-
-All tests may be run simultaneously by executing the ``runtests.sh`` script
-from the root of your assignment repository. To execute all tests, open a
-terminal in the same directory as your code repository and type:
-
-.. code:: console
-
-    $ ./runtests.sh
 
 Submission
 ==========
 
-Code should be submitted via Blackboard as a compressed folder with python files.
+Code should be submitted via Blackboard as a python notebook.   
 
 .. _GitHub: https://github.com/
 .. _Python String Documentation: https://docs.python.org/2/library/stdtypes.html
