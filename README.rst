@@ -1,5 +1,5 @@
 ####################
-IS 210 Assignment 07
+IS 210 Assignment 06
 ####################
 ************
 Warmup Tasks
@@ -18,10 +18,6 @@ allow for the efficient processing of massive amounts of data.
 Instructions
 ============
 
-The following tasks will either have you interacting with existing files in
-the assignment repository or creating new ones on the fly. Don't forget to add
-your interpreter directive, utf-8 encoding, and a short docstring with any new
-files that you create!
 
 .. important::
 
